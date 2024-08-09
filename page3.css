@@ -1,0 +1,40 @@
+.screen1 {
+    background-image: url(Group\ 18.png);
+    background-size: cover;
+    background-position: center;
+    height: 930px;
+    width: 100vw;
+    color: #FFC55A;
+}
+.screen1 h1{
+    font-family: "Roboto Slab", serif;
+    font-size: 120px;
+    line-height: 1;
+    padding-left: 275px;
+    padding-top: 504px;
+}
+.screen2 {
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.screen2 {
+    background-color: #310A34;
+}
+.screen2 h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 120px;
+    line-height: 1;
+}
+.screen2 p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 36px;
+    line-height: 1.1;
+    width: 790px;
+}

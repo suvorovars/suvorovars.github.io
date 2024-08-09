@@ -1,17 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
-a:active, /* активная/посещенная ссылка */
-a:hover,  /* при наведении */
-a {
-  text-decoration: none;
-  color: black;
-}
-
-body {
+body{
     overflow-x: hidden;
+    background-color: #191919;
 }
 .header {
     height: 120px;
@@ -22,7 +15,6 @@ body {
     justify-content: space-between;
     padding-left: 160px;
     padding-right: 160px;
-    margin: 0;
 
 }
 .logo {
@@ -51,20 +43,25 @@ body {
     padding-bottom: 22px;
     border-bottom: 10px solid #B51B75;
 }
+.main{
+    width: 85px;
+    height: 300px;
+    columns: 3 150px;
+    margin-top: 40px;
+}
+.meow1{
+    margin-left: 190px;
+}
+.meow2{
+    margin-left: 698px;
+}
 
-.footer {
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 160px;
-    padding-right: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #260828;
+.meow3{
+    margin-left: 1206px;
 }
-.social-media {
-    width: 520px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nyan{
+    width: 1920px;
+    height: 212px;
+    margin-top: 200px;
 }
+

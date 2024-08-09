@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+}
+.screen1 {
+    background-image: url(image\ 5.png);
+    background-size: cover;
+    background-position: center;
+    height: 940px;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    color: white;
+}
+.screen1 h1, .screen2 h1, .screen5 h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 120px;
+    line-height: 1;
+}
+.screen1 p, .screen2 p, .sc3-text p, .sc4-text p, .screen5 p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 36px;
+    line-height: 1.1;
+    width: 790px;
+}
+.screen2 {
+    background-color: #310A34;
+}
+.screen3 {
+    background-color: #191919;
+}
+.sc3-text h1, .sc4-text h1 {
+    font-size: 64px;
+    line-height: 1;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 50px;
+}
+.screen4 {
+    background-color: #310A34;
+}
+.screen5 {
+    background-color: #191919;
+}
+.screen1, .screen2, .screen3, .screen4, .screen5 {
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
